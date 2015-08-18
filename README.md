@@ -1,47 +1,5 @@
-<<<<<<< HEAD
-# .-cookbook
+[![Code Climate](https://codeclimate.com/github/chef/zabbix_windows_chef.png)](https://codeclimate.com/github/thomasvincent/zabbix_windows_cheft) [![Build Status](https://travis-ci.org/thomasvincent/zabbix_windows_chef.png?branch=master)](https://travis-ci.org/thomasvincent/zabbix_windows_chef) [![Dependency Status](https://gemnasium.com/thomasvincent/zabbix_windows_chef.png)](https://gemnasium.com/thomasvincent/zabbix_windows_chef) [![Inline docs](http://inch-ci.org/github/thomasvincent/zabbix_windows_chef.png)](http://inch-ci.org/github/thomasvincent/zabbix_windows_chef) [![Stories in Ready](https://badge.waffle.io/thomasvincent/zabbix_windows_chef.png?label=ready&title=Ready)](https://waffle.io/thomasvincent/zabbix_windows_chef)
 
-Zabbix agent for Windows
-
-## Supported Platforms
-
-Windows 2008
-Windows 2012
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['.']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
-
-## Usage
-
-### .::default
-
-Include `.` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[.::default]"
-  ]
-}
-```
-
-## License and Authors
-
-Author:: Thomas Vincent (thomasvincent@gmail.com)
 =======
 Description
 ===========
@@ -67,4 +25,13 @@ At this time, the actual files placed are version 2.0.3 and have been placed in 
 Usage
 =====
 Simply add the "Zabbix\_windows" recipe to a windows machine after establishing your Zabbix server and setting the Attributes as appropriate to your environment.
->>>>>>> eb5af0fab40c247110783ed782d0b0f13e5d9196
+
+
+## Supported Platforms
+
+Windows 2008
+Windows 2012
+
+## License and Authors
+
+Author:: Thomas Vincent (thomasvincent@gmail.com)
