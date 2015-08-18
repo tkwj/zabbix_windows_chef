@@ -37,4 +37,4 @@ Simply add the "Zabbix\_windows" recipe to a windows machine after establishing 
 ## License and Authors
 
 - Author:: Thomas Vincent (thomasvincent@gmail.com)
-- Original author who @thomsavincent adopted on Supermarket from Author:: H. "Waldo" Grunenwald
+- Original author who @thomasvincent adopted on Supermarket from Author:: [H. "Waldo" Grunenwald][@gwaldo]
