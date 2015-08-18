@@ -31,11 +31,10 @@ Simply add the "Zabbix\_windows" recipe to a windows machine after establishing 
 
 ## Supported Platforms
 
-Windows 2008
-Windows 2012
+* Windows 2008
+* Windows 2012
 
 ## License and Authors
 
-Author:: Thomas Vincent (thomasvincent@gmail.com)
-#
-Adopted on Supermarket from Author:: H. "Waldo" Grunenwald
+- Author:: Thomas Vincent (thomasvincent@gmail.com)
+- Original author who @thomsavincent adopted on Supermarket from Author:: H. "Waldo" Grunenwald
