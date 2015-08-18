@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Description
 ===========
 Install the Zabbix agent on Windows machines.
@@ -23,7 +22,3 @@ At this time, the actual files placed are version 2.0.3 and have been placed in 
 Usage
 =====
 Simply add the "Zabbix\_windows" recipe to a windows machine after establishing your Zabbix server and setting the Attributes as appropriate to your environment.
-=======
-# zabbix_windows_chef
-Chef cookbook for Zabbix agent on Windows machines.
->>>>>>> 3b1a18052faa3bbae68faff376493bbf0ebd07ba
