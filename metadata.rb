@@ -1,6 +1,7 @@
-maintainer       'H. "Waldo" Grunenwald'
-maintainer_email "gwaldo@gmail.com"
-license          "Apache 2.0"
-description      "Installs/Configures zabbix client on Windows."
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.0.1"
+name             '.'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures .'
+long_description 'Installs/Configures .'
+version          '0.1.0'

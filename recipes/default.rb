@@ -1,11 +1,8 @@
-# Author:: Nacer Laradji (<nacer.laradji@gmail.com>)
-# Cookbook Name:: zabbix_windows
+#
+# Cookbook Name:: .
 # Recipe:: default
 #
-# Copyright 2011, Efactures
+# Copyright (C) 2015 YOUR_NAME
 #
-# Apache 2.0
+# All rights reserved - Do Not Redistribute
 #
-
-# Windows
-include_recipe "zabbix_windows::windows_agent"
