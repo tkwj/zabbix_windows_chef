@@ -1,6 +1,6 @@
 [![Code Climate](https://codeclimate.com/github/chef/zabbix_windows_chef.png)](https://codeclimate.com/github/thomasvincent/zabbix_windows_cheft) 
-Master branch: [! [Build Status](https://api.travis-ci.org/thomasvincent/zabbix_windows_chef.png?branch=master)](https://travis-ci.org/thomasvincent/zabbix_windows_chef)
-Develop branch: [! [Build Status](https://api.travis-ci.org/thomasvincent/zabbix_windows_chef.png?branch=develop)](https://travis-ci.org/thomasvincent/zabbix_windows_chef) [![Dependency Status](https://gemnasium.com/thomasvincent/zabbix_windows_chef.png)](https://gemnasium.com/thomasvincent/zabbix_windows_chef) [![Inline docs](http://inch-ci.org/github/thomasvincent/zabbix_windows_chef.png)](http://inch-ci.org/github/thomasvincent/zabbix_windows_chef) [![Stories in Ready](https://badge.waffle.io/thomasvincent/zabbix_windows_chef.png?label=ready&title=Ready)](https://waffle.io/thomasvincent/zabbix_windows_chef)
+Master branch: [! [Build Status](https://travis-ci.org/thomasvincent/zabbix_windows_chef.svg?branch=master)](https://travis-ci.org/thomasvincent/zabbix_windows_chef.svg?branch=master)
+Develop branch: [! [Build Status](https://travis-ci.org/thomasvincent/zabbix_windows_chef.svg?branch=develop)](https://travis-ci.org/thomasvincent/zabbix_windows_chef.svg?branch=master) [![Dependency Status](https://gemnasium.com/thomasvincent/zabbix_windows_chef.png)](https://gemnasium.com/thomasvincent/zabbix_windows_chef) [![Inline docs](http://inch-ci.org/github/thomasvincent/zabbix_windows_chef.png)](http://inch-ci.org/github/thomasvincent/zabbix_windows_chef) [![Stories in Ready](https://badge.waffle.io/thomasvincent/zabbix_windows_chef.png?label=ready&title=Ready)](https://waffle.io/thomasvincent/zabbix_windows_chef)
 
 =======
 Description
