@@ -13,6 +13,7 @@ default['zabbix_windows']['agent']['servers_active'] = ["zabbixserver.domain.loc
 default['zabbix_windows']['agent']['hostname'] = node.fqdn
 default['zabbix_windows']['agent']['configure_options'] = [ "--with-libcurl" ]
 default['zabbix_windows']['agent']['install_method'] = "prebuild"
+default['zabbix_windows']['agent']['base_url'] = 'http://www.zabbix.com/downloads/VERSION/zabbix_agents_VERSION.win.zip'
 
 default['zabbix_windows']['agent']['include_dir'] = "C:\\zabbix\\agent\\agent_include"
 default['zabbix_windows']['agent']['install_dir'] = "C:\\zabbix\\agent"
@@ -25,3 +26,4 @@ case node['kernel']['machine'].to_s
 		default['zabbix_windows']['agent']['windows_bitness'] = '32'
 end
 
+default['zabbix_windows']['agent']['version_installed'] = "0"
