@@ -31,6 +31,20 @@ directory node['zabbix_windows']['log_dir'] do
 	inherits true
 end
 
+template "#{installdir}\\agent_include" do
+	source "agent_include.erb"
+	action :create_if_missing
+	inherits true
+	notifies :restart, "service[Zabbix Agent]"
+end
+
+template "#{installdir}\\zabbix_agentd.conf" do
+	source "zabbix_agentd.conf.erb"
+	action :create_if_missing
+	inherits true
+	notifies :restart, "service[Zabbix Agent]"
+end
+
 if node['zabbix_windows']['agent']['version'] != node['zabbix_windows']['agent']['version_installed']
 
 	# Check Windows Service
@@ -92,18 +106,4 @@ service "Zabbix Agent" do
 	supports :status => true, :start => true, :stop => true, :restart => true
 	action [ :enable ]
 	action [ :start ]
-end
-
-template "#{installdir}\\agent_include" do
-	source "agent_include.erb"
-	action :create_if_missing
-	inherits true
-	notifies :restart, "service[Zabbix Agent]"
-end
-
-template "#{installdir}\\zabbix_agentd.conf" do
-	source "zabbix_agentd.conf.erb"
-	action :create_if_missing
-	inherits true
-	notifies :restart, "service[Zabbix Agent]"
 end
